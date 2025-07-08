@@ -1,0 +1,17 @@
+body {
+    background: url("/soul-eater.png") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    margin: 0;
+}
+
+head {
+    color: white;
+}
+.page-content {
+    min-height: calc(100vh - 100px);
+    /* ajusta conforme altura do header/footer */
+    padding: 1rem;
+    color: white;
+}

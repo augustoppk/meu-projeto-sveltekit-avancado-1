@@ -1,7 +1,10 @@
+<svelte:head>
+  <link rel="stylesheet" href="/style.css" />
+</svelte:head>
+
 <script>
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
-
   let { children } = $props();
 </script>
 

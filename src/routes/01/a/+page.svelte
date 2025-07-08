@@ -2,8 +2,8 @@
   let contador = 0;
 
   function contar() {
-    contador++;
-    console.log('Executando no cliente');
+      contador++;
+      console.log('Executando no cliente');
   }
 </script>
 
